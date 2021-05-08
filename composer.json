@@ -1,0 +1,17 @@
+{
+  "name": "Shixq2016/easyswoole3-extension",
+  "description": "easyswoole3 extension service",
+  "keywords": [],
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.1",
+    "easyswoole/easyswoole": "3.3.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ESL": "src/"
+    }
+  }
+}
