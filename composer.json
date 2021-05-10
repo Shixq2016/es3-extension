@@ -7,7 +7,20 @@
   "minimum-stability": "dev",
   "require": {
     "php": ">=7.1",
-    "easyswoole/easyswoole": "3.3.*"
+    "easyswoole/easyswoole": "3.3.*",
+    "easyswoole/swoole-ide-helper": "*",
+    "easyswoole/orm": "1.4.*",
+    "easyswoole/policy": "1.0.*",
+    "easyswoole/template": "1.0.8",
+    "smarty/smarty": "v3.1.36",
+    "easyswoole/hot-reload": "0.1.*",
+    "easyswoole/redis": "1.3.*",
+    "easyswoole/redis-pool": "2.1.*",
+    "easyswoole/pool": "1.0.*",
+    "easyswoole/queue": "2.0.*",
+    "easyswoole/validate": "^1.2",
+    "easyswoole/http-client": "1.4.*",
+    "firebase/php-jwt": "5.2.*"
   },
   "autoload": {
     "psr-4": {
