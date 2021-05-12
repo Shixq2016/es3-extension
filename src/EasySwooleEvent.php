@@ -34,7 +34,7 @@ class EasySwooleEvent
     /**
      * 全局初始化
      */
-    public function initialize(): void
+    public static function initialize(): void
     {
         /** 设置时区 */
         date_default_timezone_set('Asia/Shanghai');
@@ -83,7 +83,7 @@ class EasySwooleEvent
         }
     }
 
-    public function mainServerCreate(EventRegister $register): void
+    public static function mainServerCreate(EventRegister $register): void
     {
         /** 初始化定时任务 */
         Crontab::getInstance()->autoLoad();
