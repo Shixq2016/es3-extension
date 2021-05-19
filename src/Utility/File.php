@@ -6,7 +6,7 @@ namespace ESL\Utility;
  * 文件助手类
  * Class File
  * @author  : evalor <master@evalor.cn>
- * @package Es3\Utility
+ * @package ESL\Utility
  */
 class File
 {

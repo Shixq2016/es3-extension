@@ -9,7 +9,7 @@ use ESL\Exception\InfoException;
 /**
  * 配置自动加载
  * Class HttpRouter
- * @package Es3\Autoload
+ * @package ESL\Autoload
  */
 class Jwt
 {

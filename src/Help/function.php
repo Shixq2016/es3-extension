@@ -169,7 +169,7 @@ function setAppCode($appCode): void
     $headerAppCode = $ref->getConstant('HEADER_APP_CODE');
 
     if (superEmpty($headerAppCode)) {
-        throw new \Es3\Exception\InfoException(1036, "App\Constant\AppConst常量中缺少 HEADER_APP_CODE 常量");
+        throw new \ESL\Exception\InfoException(1036, "App\Constant\AppConst常量中缺少 HEADER_APP_CODE 常量");
     }
 
     Di::getInstance()->set($headerAppCode, $appCode);
@@ -181,7 +181,7 @@ function appCode()
     $headerAppCode = $ref->getConstant('HEADER_APP_CODE');
 
     if (superEmpty($headerAppCode)) {
-        throw new \Es3\Exception\InfoException(1035, "App\Constant\AppConst常量中缺少 HEADER_APP_CODE 常量");
+        throw new \ESL\Exception\InfoException(1035, "App\Constant\AppConst常量中缺少 HEADER_APP_CODE 常量");
     }
 
     return Di::getInstance()->get($headerAppCode);
@@ -190,7 +190,7 @@ function appCode()
 function redisKey(string ...$key): string
 {
     if (superEmpty($key)) {
-        throw new \Es3\Exception\InfoException(1301, '请传递redis key');
+        throw new \ESL\Exception\InfoException(1301, '请传递redis key');
     }
 
     $key = implode('_', $key);

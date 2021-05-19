@@ -8,7 +8,7 @@ use EasySwoole\EasySwoole\Command\Utility;
 /**
  * 配置自动加载
  * Class HttpRouter
- * @package Es3\Autoload
+ * @package ESL\Autoload
  */
 class Config
 {
